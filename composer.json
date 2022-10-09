@@ -11,6 +11,15 @@
     ],
     "minimum-stability": "dev",
     "require": {},
+    "require-dev": {
+        "cleantalk-apbct/templates": "master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Glomberg/CleantalkApbct-Templates"
+        }
+    ],
 	"autoload": {
         "psr-4": {
             "CleantalkApbct\\Transaction\\": "src/"
