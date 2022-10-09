@@ -1,7 +1,6 @@
 {
     "name": "cleantalk-apbct/transaction",
     "description": "Transaction abstract class",
-    "version": "1.0.0",
     "type": "cleantalk-apbct-lib",
     "authors": [
         {
@@ -10,16 +9,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
-    "require-dev": {
-        "cleantalk-apbct/templates": "master"
+    "require": {
+        "cleantalk/installer": "*",
+        "cleantalk-apbct/templates": "*"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Glomberg/CleantalkApbct-Templates"
-        }
-    ],
 	"autoload": {
         "psr-4": {
             "CleantalkApbct\\Transaction\\": "src/"
